@@ -1,0 +1,189 @@
+body {
+    font-family: 'Chakra Petch', sans-serif; 
+    margin: 0;
+}
+
+/* styling for the index.html page */
+#backGroundPage1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/BGS1.png');
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.firstPageMain {
+    width: 70%;
+    height: 70%;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.firstPageMain > div {
+    margin-top: 150px;
+}
+
+.firstPageMain > div > h1 {
+   font-size: 60px;
+   color: white;
+   font-family: 'Faster One';
+}
+
+.backGInput {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: 12px auto;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding-top: 10px;
+    border: 1px solid steelblue;
+}
+
+.backGInput > p {
+    font-size: 20px;
+    padding-top: 8px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.backGInput > input {
+    border: none;
+    width: 150px;
+    height: 30px;
+    border: 1px solid steelblue;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 3px 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    color: white;
+}
+
+
+/* styling for the game.html page */
+#backGroundPage2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/BGS2.1.png');
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.boardGame {
+    width: 45%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    border: 1px solid steelblue;
+    margin: 70px auto;
+}
+
+.scorePlayer1, .scorePlayer2{
+    position: absolute;
+    float: right;
+    right: 10%;
+    width: 10%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.scorePlayer1 {
+    top: 5%;
+}
+
+.scorePlayer2 {
+    top: 23%;
+}
+
+#player1Img, #player2Img {
+    position: absolute;
+    width: 5%;
+    float: right;
+    right: 3%;
+}
+
+#player1Img {
+    top: 9%;
+}
+
+#player2Img {
+    top: 28%;
+}
+
+.scorePlayer1 > h4 {
+    margin-bottom: 0;
+}
+
+.first { 
+    width: 100%;
+    height: 33.3%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 1.4px solid steelblue;
+}
+
+.second {
+    width: 100%;
+    height: 33.3%;
+    border-bottom: 1.4px solid steelblue;
+}
+
+
+.third {
+    width: 100%;
+    height: 33.3%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.square {
+    margin: 0;
+    display: inline-block;
+    height: 100%;
+    width: 32.9%;
+}
+
+
+#oneF, #oneS, #oneTh, #twoF, #twoS, #twoTh  {
+    border-right: 1.4px solid steelblue;
+    border-right: 1.4px solid steelblue;
+}
+
+.refresh {
+    position: absolute;
+    top: 43%;
+    right: 13%;
+    width: 4%;
+    margin: 10px auto;
+}
+
+.back {
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    width: 5%;
+    margin: 10px auto;
+}
+
+.player1 {
+    content:url('images/player1.png');
+    width: 65%;
+    margin: 5% auto;
+    padding: 10%;
+}
+
+.player2 {
+    content:url('images/player2.png');
+    width: 65%;
+    margin: 5% auto;
+    padding: 10%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div id="backGroundPage2">
+<!--         
+        <audio width="0" height="0" autoplay loop>
+            <source src="Interstellar.mp3"  type="audio/mp3"/>
+        </audio> -->
+
+        <embed height="0" type="audio/mp3" width="0" src="audio/Interstellar.mp3" loop="true" autostart="true" />
+
+
+        <img src="images/player1.png" id="player1Img">
+        <img src="images/player2.png" id="player2Img">
+
+        <div class="scorePlayer1">
+            <h4><span id="playerOneName"></span> Score</h4>
+            <p id="playerOneScore">0</p>
+        </div>
+
+        <div class="scorePlayer2">
+            <h4><span id="playerTwoName"></span> Score</h4>
+            <p id="playerTwoScore">0</p>
+        </div>
+
+        <div class="boardGame">
+            <div class="first">
+                <div class="square empty" id="oneF"></div><div class="square empty" id="twoF"></div><div class="square empty" id="threeF"></div>
+            </div>
+            <div class="second">
+                <div class="square empty" id="oneS"></div><div class="square empty" id="twoS"></div><div class="square empty" id="threeS"></div>
+            </div>
+            <div class="third">
+                <div class="square empty" id="oneTh"></div><div class="square empty" id="twoTh"></div><div class="square empty" id="threeTh"></div>
+            </div>
+        </div>
+
+       <img src="images/refresh.png" alt="refresh the game" class="refresh">
+       <img src="images/back.png" alt="back to main page" class="back">
+    </div>
+</body>
+</html>

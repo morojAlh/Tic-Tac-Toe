@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     startGame();
     
-    // main array for board game oreder in 
+    // main array for board game in order
     var arrGame = ['oneF', 'twoF', 'threeF', 'oneS', 'twoS', 'threeS', 'oneTh', 'twoTh', 'threeTh'];
     
     var playerOneScoreCount = 0;
